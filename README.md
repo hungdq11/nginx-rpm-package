@@ -10,7 +10,7 @@ Starting from NGINX 1.9.11, we can also compile module as a dynamic module and l
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;
 ```
 This build includes the following modules as dynamic modules:
-* [lua-nginx-module](https://github.com/openresty/lua-nginx-module)
+* [lua-nginx-module](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0)
 * [headers-more-nginx-module](https://github.com/openresty/headers-more-nginx-module)
 * [echo-nginx-module](https://github.com/openresty/echo-nginx-module)
 * [set-misc-nginx-module](https://github.com/openresty/set-misc-nginx-module)
